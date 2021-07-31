@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PatcherDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"PakFile"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ChunkDownloader",
+			"Enabled": true
+		},
+		{
+			"Name": "DazToUnreal",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeCopyMorphTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/06ae55a387b2401e9049d7c295272930"
+		},
+		{
+			"Name": "VictoryBPLibrary",
+			"Enabled": true,
+			"MarketplaceURL": "http://www.ue4code.com"
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		}
+	]
+}
